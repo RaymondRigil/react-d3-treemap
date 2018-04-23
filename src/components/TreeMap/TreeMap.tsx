@@ -291,6 +291,7 @@ class TreeMap extends React.Component<ITreeMapProps, ITreeMapState> {
     }
 
     private _zoomTo(nodeId: string) {
+        alert('clicked '+string);
         const { selectedId, xScaleFunction, yScaleFunction, width, height } = this.state;
 
         if (selectedId !== nodeId) {
